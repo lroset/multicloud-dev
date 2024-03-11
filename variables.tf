@@ -1,22 +1,22 @@
 // AWS variables
 
-variable "name" {
+variable "s3-name" {
     description = "name of the s3 to be created"
 }
-variable "prefix" {
+variable "s3-prefix" {
     description = "S3 prefix"
 }
-variable "region"{
+variable "aws-region"{
     description = "region to deploy"
 }
 
 // Azure variables
 
-variable "name" {
+variable "rg-name" {
   description = "resource group name"
   default = "rg-example"
 }
-variable "region" {
+variable "az-region" {
   description = "resource group region"
   default = "East US"
 }
