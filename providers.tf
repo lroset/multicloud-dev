@@ -3,5 +3,5 @@ provider azurerm{
 }
 
 provider aws {
-  region = var.region
+  region = var.aws-region
 }
