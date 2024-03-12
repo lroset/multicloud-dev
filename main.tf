@@ -10,7 +10,7 @@ module "resource_group" {
 module "s3_webapp" {
   source  = "app.terraform.io/ACME-Luis/s3-webapp/aws"
 
-  name = var.name
-  prefix = var.prefix
-  region = var.region
+  name = "cloud"
+  prefix = "multi"
+  region = "us-east-2"
 }
