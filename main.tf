@@ -1,10 +1,4 @@
 terraform {
-  cloud {
-    organization = "ACME-luis"
-    workspaces {
-      name = "multicloud-dev"
-    }
-  }
 }
 // Azure Private Registry Module
 module "resource_group" {
