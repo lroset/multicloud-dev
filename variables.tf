@@ -1,14 +1,14 @@
 // AWS variables
 
-variable "name" {
+variable "s3-name" {
     description = "name of the s3 to be created"
     default = "test"
 }
-variable "prefix" {
+variable "s3-prefix" {
     description = "S3 prefix"
     default = "s3"
 }
-variable "region"{
+variable "aws-region"{
     description = "region to deploy"
     default = "us-east-2"
 }
