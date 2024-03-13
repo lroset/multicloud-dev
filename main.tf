@@ -11,6 +11,6 @@ module "s3_webapp" {
   source  = "app.terraform.io/ACME-Luis/s3-webapp/aws"
 
   name = "nulticloud"
-  prefix = "S3"
+  prefix = "s3"
   region = "us-east-2"
 }
