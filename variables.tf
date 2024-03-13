@@ -2,7 +2,7 @@
 
 variable "s3-name" {
     description = "name of the s3 to be created"
-    default = "test"
+    default = "multi"
 }
 variable "s3-prefix" {
     description = "S3 prefix"
