@@ -1,6 +1,6 @@
 // AWS variables
 
-variables "aws-region" {
+variable "aws-region" {
     description = "aws deployment region"
     default = "us-east-2"
 }
