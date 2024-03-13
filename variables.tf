@@ -17,7 +17,7 @@ variable "aws-region"{
 
 variable "rg-name" {
     description = "resource group name"
-    default = rg-example"
+    default = "rg-example"
 }
 variable "az-region" {    
     description = "resource group region"
