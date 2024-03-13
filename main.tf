@@ -10,7 +10,7 @@ module "resource_group" {
 module "s3_webapp" {
   source  = "app.terraform.io/ACME-Luis/s3-webapp/aws"
 
-  name = "bucket"
-  prefix = "multi"
+  name = "nulticloud"
+  prefix = "S3"
   region = "us-east-2"
 }
