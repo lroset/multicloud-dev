@@ -1,3 +1,9 @@
+// AWS variables
+
+variables "aws-region" {
+    description = "aws deployment region"
+    default = "us-east-2"
+}
 
 // Azure variables
 
